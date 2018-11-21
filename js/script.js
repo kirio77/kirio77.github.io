@@ -50,8 +50,9 @@
       $.ajax({
         type: "POST",
        /* url: "https://docs.google.com/forms/d/1OCiSMSdit8QgxlhWjO9y9MmtFgpLdo52xf7UaCfY_ng/formResponse", */
-        url: "https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse",	   
-        contentType: "application/x-www-form-urlencoded;charset=utf-8",
+        var uri: "https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse",	   
+        var res: encodeURIComponent(uri), 
+		contentType: "application/x-www-form-urlencoded;charset=utf-8",
         data: dataString,
         complete:sent
       });
