@@ -34,10 +34,10 @@
         return false;
       }
 
-	  name = escape(name);
-	  email = escape(email);
-	  guest = escape(guest);
-	  attending = escape(attending);
+	  name = encodeURIComponent(name);
+	  email = encodeURIComponent(email);
+	  guest = encodeURIComponent(guest);
+	  attending = encodeURIComponent(attending);
 		
       console.log(name);
       console.log(email);
