@@ -17,9 +17,7 @@
       }
       var email = $("input#email_" + type).val();
       if (email == "") {
-        $("input#email_" + type).css({border: "1px solid red"});
-        $("input#email_" + type).focus();
-        return false;
+		$("BezPartnera#email_" + type).val();
       }
       var guest = $("input#guest_" + type).val();
       if (guest == "") {
