@@ -34,6 +34,11 @@
         return false;
       }
 
+	  name = escape(name);
+	  email = escape(email);
+	  guest = escape(guest);
+	  attending = escape(attending);
+		
       console.log(name);
       console.log(email);
       console.log(guest);
