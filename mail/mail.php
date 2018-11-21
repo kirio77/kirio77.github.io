@@ -1,14 +1,13 @@
 <?php
 if(!empty($_POST))
 {
-header('Content-Type: text/html; charset=utf-8'); 
 $name = 'Name: '.$_POST[name]."\n";
 $email = 'E-mail: '.$_POST[email]."\n";
 $guest = "Guest's Name: ".$_POST[guest]."\n";
 $attending = '#Attending: '.$_POST[attending]."\n";
  
 $ip = getRealIpAddr();
-$message = "$name$email$guest$attending\n\nFrom page: ".urldecode($_SERVER['HTTP_REFERER'])."\nIP: $ip\nBrowser: ".$_SERVER['HTTP_USER_AGENT']."\n";
+$message = "$name$email$guest$attending\n\nFrom page: ".urldecode($_SERVER['HTTPS_REFERER'])."\nIP: $ip\nBrowser: ".$_SERVER['HTTPS_USER_AGENT']."\n";
 $error = array();
 
  
@@ -25,10 +24,10 @@ mail("hrabal.vaclav@outlook.com", "$title", $message,
 }
  
 function getRealIpAddr() {
-        if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
-                $ip=$_SERVER['HTTP_CLIENT_IP'];
-        } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
-                $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
+        if (!empty($_SERVER['HTTPS_CLIENT_IP'])) {
+                $ip=$_SERVER['HTTPS_CLIENT_IP'];
+        } elseif (!empty($_SERVER['HTTPS_X_FORWARDED_FOR'])) {
+                $ip=$_SERVER['HTTPS_X_FORWARDED_FOR'];
         } else {
                 $ip=$_SERVER['REMOTE_ADDR'];
         }
