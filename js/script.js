@@ -46,13 +46,15 @@
       function sent(){
         $('#div_' + type).html("<div id='form_send_message'>Děkujeme :)</div>", 1500);
       }
-      $.ajax({
-        type: "POST",
-       /* url: "https://docs.google.com/forms/d/1OCiSMSdit8QgxlhWjO9y9MmtFgpLdo52xf7UaCfY_ng/formResponse", */
-        url: "https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse",	   
-        contentType: "application/x-www-form-urlencoded;charset=utf-8",
-        data: dataString,
-        complete:sent
+	  
+	  
+	  $.postJSON = function(url, data, callback) {
+    return jQuery.ajax({
+        'type': 'POST',
+        'url': "https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse",
+        'contentType': 'application/x-www-form-urlencoded',
+        'data': $.toJSON(dataString),
+		'complete':sent
       });
     }
 
