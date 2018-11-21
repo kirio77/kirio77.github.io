@@ -53,7 +53,6 @@
         url: "https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse",	   
         contentType: "application/x-www-form-urlencoded;charset=utf-8",
         data: dataString,
-		dataType: 'json'
         complete:sent
       });
     }
