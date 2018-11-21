@@ -56,6 +56,8 @@
         complete:sent
       });
     }
+	
+      console.log(dataString);	
 
     /*ScrollR */
     if ($(window).width() > 1024) {
