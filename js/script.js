@@ -47,6 +47,7 @@
       function sent(){
         $('#div_' + type).html("<div id='form_send_message'>Děkujeme :)</div>", 1500);
       }
+	  console.log(dataString);
       $.ajax({
         type: "POST",
        /* url: "https://docs.google.com/forms/d/1OCiSMSdit8QgxlhWjO9y9MmtFgpLdo52xf7UaCfY_ng/formResponse", */
