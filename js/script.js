@@ -40,8 +40,7 @@
       console.log(attending);
 
       /*var dataString = '&entry.1068564038=' + name + '&entry.352472512=' + email + '&entry.1150838879=' + guest + '&entry.66493311=' + attending;*/
-	  var dataString = escape('&entry.2409743=' + name + '&entry.1864004351=' + email + '&entry.1443529208=' + guest + '&entry.1224460778=' + attending);
-      console.log (dataString);
+	  var dataString = encodeURIComponent('&entry.2409743=' + name + '&entry.1864004351=' + email + '&entry.1443529208=' + guest + '&entry.1224460778=' + attending);
 	  var form = $(this);
       var str = form.serialize();
       function sent(){
