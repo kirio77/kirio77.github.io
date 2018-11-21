@@ -40,24 +40,20 @@
       console.log(attending);
 
       /*var dataString = '&entry.1068564038=' + name + '&entry.352472512=' + email + '&entry.1150838879=' + guest + '&entry.66493311=' + attending;*/
-	  var url = 'https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse';
 	  var dataString = '&entry.2409743=' + name + '&entry.1864004351=' + email + '&entry.1443529208=' + guest + '&entry.1224460778=' + attending;
+      console.log (dataString);
 	  var form = $(this);
       var str = form.serialize();
       function sent(){
         $('#div_' + type).html("<div id='form_send_message'>Děkujeme :)</div>", 1500);
       }
-	  
-	  
-    $.postJSON = function(url, data, callback, sent) {
-    return jQuery.ajax({
-        'type': 'POST',
-        'url': url,
-        'contentType': 'application/json',
-        'data': $.toJSON(dataString),
-        'dataType': 'json',
-        'success': callback
-		'complete':sent
+      $.ajax({
+        type: "POST",
+       /* url: "https://docs.google.com/forms/d/1OCiSMSdit8QgxlhWjO9y9MmtFgpLdo52xf7UaCfY_ng/formResponse", */
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse",	   
+        contentType: "application/x-www-form-urlencoded;charset=utf-8",
+        data: dataString,
+        complete:sent
       });
     }
 
