@@ -9,7 +9,6 @@
     });
 
     function send_form (type) {
-
       var name = $("input#name_" + type).val();
       if (name == "") {
         $("input#name_" + type).css({border: "1px solid red"});
@@ -42,7 +41,8 @@
 
       /*var dataString = '&entry.1068564038=' + name + '&entry.352472512=' + email + '&entry.1150838879=' + guest + '&entry.66493311=' + attending;*/
 	  var dataString = '&entry.2409743=' + name + '&entry.1864004351=' + email + '&entry.1443529208=' + guest + '&entry.1224460778=' + attending;
-      var form = $(this);
+      console.log (dataString);
+	  var form = $(this);
       var str = form.serialize();
       function sent(){
         $('#div_' + type).html("<div id='form_send_message'>Děkujeme :)</div>", 1500);
