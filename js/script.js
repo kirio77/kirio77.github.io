@@ -23,7 +23,7 @@
       }
       var guest = $("input#guest_" + type).val();
       if (guest == "") {
-		$("'BezPartnera'#email_" + type).val();
+		$("BezPartnera#email_" + type).val();
       }
       var attending = $("input#attending_" + type).val();
       if (attending == "") {
