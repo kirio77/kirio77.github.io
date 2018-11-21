@@ -17,13 +17,13 @@
       }
       var email = $("input#email_" + type).val();
       if (email == "") {
-		$("BezPartnera#email_" + type).val();
+        $("input#email_" + type).css({border: "1px solid red"});
+        $("input#email_" + type).focus();
+        return false;
       }
       var guest = $("input#guest_" + type).val();
       if (guest == "") {
-        $("input#guest_" + type).css({border: "1px solid red"});
-        $("input#guest_" + type).focus();
-        return false;
+		$("'BezPartnera'#email_" + type).val();
       }
       var attending = $("input#attending_" + type).val();
       if (attending == "") {
