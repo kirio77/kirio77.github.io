@@ -51,7 +51,7 @@
 	  $.postJSON = function(url, data, callback) {
     return jQuery.ajax({
         'type': 'POST',
-        'url': "https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse",
+        'url': https://docs.google.com/forms/d/e/1FAIpQLSe6Va_ZPMhsfEQZUET2skS2Oy-4eb6amG2XK1MyBt3-ykJeSw/formResponse,
         'contentType': 'application/x-www-form-urlencoded',
         'data': $.toJSON(dataString),
 		'complete':sent
