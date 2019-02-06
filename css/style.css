@@ -548,10 +548,10 @@ header {
 
 .bullet {
   display: block;
-  width: auto
-  height: auto
-  margin: auto
-  margin: auto
+  width: 16px;
+  height: 26px;
+  margin: 8px 0 0 16px;
+  margin: 5px auto
 }
 
 .bullet i {
@@ -562,11 +562,11 @@ header {
   position: absolute;
   margin: -3px 0 0 -35px;
   opacity: 0.5;
-  font: 400 18px/28px Roboto Condensed
+  font: 400 Roboto Condensed
 }
 
 .bullet span b {
-  font: 400 18px/28px Roboto Condensed;
+  font: 400 Roboto Condensed;
   display: inline-block;
   margin: 0 0 0 30px;
 }
