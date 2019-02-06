@@ -6,7 +6,7 @@ h2 {
 }
 h2:after {
 	background: url(../images/red/bullet.png);
-	background-size: cover;
+	background-size: initial;
 }
 .bullet {
 	background: url(../images/red/bullet.png);
