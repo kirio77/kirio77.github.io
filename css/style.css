@@ -549,22 +549,22 @@ header {
 .bullet {
   display: block;
   width: auto;
-  height: 26px;
-  margin: 8px 0 0 40px;
-  margin: 5px auto
+  height: auto;
+  margin: auto;
+  margin: auto;
 }
 
 .bullet span {
   position: absolute;
-  margin: -3px 0 0 -35px;
+  margin: auto;
   opacity: 0.5;
-  font: 400 18px/28px Roboto Condensed
+  font: 400 1px/40px Roboto Condensed
 }
 
 .bullet span b {
-  font: 400 18px/28px Roboto Condensed;
+  font: 400 1px/40px Roboto Condensed;
   display: inline-block;
-  margin: 0 0 0 40px;
+  margin: auto;
 }
 
 /*# 5. Married*/
