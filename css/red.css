@@ -55,11 +55,11 @@ h2:after {
 }
 .owl-page:after {
 	background: url(../images/red/bullet.png);
-	background-size: cover
+	background-size: 100% 100%;
 }
 .owl-page.active:after {
 	background: url(../images/red/bullet_active.png);
-	background-size: cover
+	background-size: 100% 100%;
 }
 
 .story_title, .story_title i {
