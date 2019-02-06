@@ -550,8 +550,8 @@ header {
   display: block;
   width: auto
   height: auto
-  margin: 8px 0 0 16px;
-  margin: 5px auto
+  margin: auto
+  margin: auto
 }
 
 .bullet i {
