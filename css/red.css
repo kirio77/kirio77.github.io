@@ -6,11 +6,11 @@ h2 {
 }
 h2:after {
 	background: url(../images/red/bullet.png);
-	background-size: 90%;
+	background-size: 95%;
 }
 .bullet {
 	background: url(../images/red/bullet.png);
-	background-size: cover;
+	background-size: 95%;
 }
 .im_arrows:before {
 	background: url(../images/red/im_arrow_end.png);
