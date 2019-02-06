@@ -10,7 +10,7 @@ h2:after {
 }
 .bullet {
 	background: url(../images/red/bullet.png);
-	background-size: auto;
+	background-size: cover;
 }
 .im_arrows:before {
 	background: url(../images/red/im_arrow_end.png);
