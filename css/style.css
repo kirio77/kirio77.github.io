@@ -562,11 +562,11 @@ header {
   position: absolute;
   margin: -3px 0 0 -35px;
   opacity: 0.5;
-  font: 400 18px/28px Roboto Condensed
+  font: 400 31px/28px Roboto Condensed
 }
 
 .bullet span b {
-  font: 400 18px/28px Roboto Condensed;
+  font: 400 31px/28px Roboto Condensed;
   display: inline-block;
   margin: 0 0 0 30px;
 }
