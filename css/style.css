@@ -69,7 +69,7 @@ a {
 }
 
 h2 {
-  font: 46px/48px Pacifico;
+  font: 46px/48px Romanesco;
   text-align: center;
   margin: 0 0 20px 0;
 }
@@ -255,7 +255,7 @@ header {
 .sub_menu li:before {
   content: '0' counter(item);
   counter-increment: item;
-  font: 30px Pacifico;
+  font: 30px Romanesco;
   display: inline-block;
   margin: 0 20px 0 0
 }
@@ -444,7 +444,7 @@ header {
 }
 
 .names {
-  font: 46px Pacifico;
+  font: 46px Romanesco;
   color: #000
 }
 
@@ -466,7 +466,7 @@ header {
 }
 
 .date {
-  font: 40px Pacifico;
+  font: 40px Romanesco;
   margin: 0 0 50px 0;
   color: #000
 }
@@ -673,7 +673,7 @@ header {
 }
 
 .married_coundown .countdown-period {
-  font: 20px/24px Pacifico;
+  font: 20px/24px Romanesco;
   color: #C5C3BE;
   display: block;
   text-transform: lowercase;
@@ -686,7 +686,7 @@ header {
 }
 
 .bride_title_block {
-  font: 46px/48px Pacifico;
+  font: 46px/48px Romanesco;
   text-align: center;
   margin: 80px 0 0 0;
   color: #D9C6B1;
@@ -728,7 +728,7 @@ header {
 }
 
 .groom_title_block {
-  font: 46px/48px Pacifico;
+  font: 46px/48px Romanesco;
   text-align: center;
   margin: 80px 0 0 0;
   color: #D9C6B1;
@@ -1138,7 +1138,7 @@ header {
 }
 
 .story_title {
-  font: 34px/26px Pacifico;
+  font: 34px/26px Romanesco;
   margin: 0 -10% 28px 0;
   text-align: center;
 }
@@ -1340,7 +1340,7 @@ header {
 }
 
 .accept_decline {
-  font: 46px Pacifico
+  font: 46px Romanesco
 }
 
 .form-control {
@@ -1480,12 +1480,12 @@ header {
 }
 
 .title1 {
-  font: 46px/48px Pacifico;
+  font: 46px/48px Romanesco;
 }
 
 .title1_2 {
   text-indent: -15px;
-  font: 52px/56px Pacifico;
+  font: 52px/56px Romanesco;
 }
 .box{
   padding: 20px;
@@ -1586,7 +1586,7 @@ header {
 }
 
 .thanks {
-  font: 45px/48px Pacifico;
+  font: 45px/48px Romanesco;
   padding: 0 24px;
   margin: 0 0 21px 0
 }
@@ -1677,7 +1677,7 @@ header {
 }
 
 .guest_title {
-  font: 32px/40px Pacifico;
+  font: 32px/40px Romanesco;
   color: #757575;
   z-index: 3;
 }
@@ -1884,7 +1884,7 @@ header {
   }
 
   h2 {
-    font: 34px/40px Pacifico
+    font: 34px/40px Romanesco
   }
 
   h2 span {
