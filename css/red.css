@@ -63,10 +63,10 @@ h2:after {
 }
 
 .story_title, .story_title i {
-	color: #e93b38;
+	color: #23683d;
 }
 .story_title:before, .story_title:after {
-	background:#e93b38;
+	background:#23683d;
 }
 
 .when_where .over{
