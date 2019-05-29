@@ -22,8 +22,8 @@ h2:after {
 }
 
 .btn {
-	color:#e93b38!important;
-	border: 2px solid #e93b38
+	color:#23683d!important;
+	border: 2px solid #23683d
 	
 }
 	.btn:hover {
@@ -31,10 +31,10 @@ h2:after {
 		color:#fff!important
 	}
 	.btn:active, .btn:focus {
-		background:#e93b38;
+		background:#23683d;
 	}
 .married_coundown {
-	color: #e93b38;
+	color: #23683d;
 }
 .double_arrow {
 	background: url(../images/red/double_arrow.png);
@@ -91,5 +91,5 @@ h2:after {
 	background:url(../images/red/envelope_front.png);
 }
 .paper .paper_title {
-	color: #e93b38;
+	color: #23683d;
 }
