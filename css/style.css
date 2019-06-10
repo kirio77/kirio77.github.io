@@ -1033,16 +1033,6 @@ header {
   background-position: center !important;
 }
 
-.story_img2 {
-  width: 100%;
-  height: 100%;
-  background-size: cover !important;
-  float: left;
-  background-repeat: no-repeat !important;
-  position: relative;
-  background-position: center !important;
-}
-
 .youtube {
   position: absolute;
   color: #FFF !important;
