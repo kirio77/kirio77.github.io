@@ -42,7 +42,7 @@ h2:after {
 }
 .owl-pagination {
 	background: url(../images/red/arrow_back.png); 
-	background-size: 100%/(columns) auto;
+	background-size: 110%/(columns) 110%;
 	background-repeat: repeat-x;
 	image-rendering: pixelated;
 }
