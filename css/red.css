@@ -38,15 +38,15 @@ h2:after {
 }
 .double_arrow {
 	background: url(../images/red/double_arrow.png);
-	background-size: 110% auto;
+	background-size: cover;
 }
 .owl-pagination {
 	background: url(../images/red/arrow_back.png) repeat-x;
-	background-size: 120% auto;
+	background-size: 110% 110%;
 }
 .owl-pagination:before {
 	background: url(../images/red/arrow_end.png);
-	background-size: 110% auto;
+	background-size: cover;
 }
 .owl-pagination:after {
 	background: url(../images/red/arrow_start.png);
