@@ -42,7 +42,7 @@ h2:after {
 }
 .owl-pagination {
 	background: url(../images/red/arrow_back.png); 
-	background-size: cover;
+	background-size: 110% 110%;
 }
 .owl-pagination:before {
 	background: url(../images/red/arrow_end.png);
@@ -54,11 +54,11 @@ h2:after {
 }
 .owl-page:after {
 	background: url(../images/red/bullet.png);
-	background-size: 100% 100%;
+	background-size: 110% 110%;
 }
 .owl-page.active:after {
 	background: url(../images/red/bullet_active.png);
-	background-size: 100% 100%;
+	background-size: 110% 110%;
 }
 
 .story_title, .story_title i {
