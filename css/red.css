@@ -41,7 +41,7 @@ h2:after {
 	background-size: cover;
 }
 .owl-pagination {
-	background: url(../images/red/arrow_back.png) repeat-x;
+	background: url(../images/red/arrow_backX.png) repeat-x;
 	background-size: 1EM 1EM, 110% 1px;
 }
 .owl-pagination:before {
