@@ -1914,7 +1914,7 @@ header {
   }
 
   .gallery_item {
-    width: auto
+    width: 100%
   }
 
   .paper h2 {
