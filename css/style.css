@@ -1798,7 +1798,7 @@ header {
 }
 
 .gallery_item img {
-  width: 100%;
+  width: initial;
   height: 400px;
   transition: transform 2s;
 }
