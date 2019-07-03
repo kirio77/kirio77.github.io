@@ -1798,13 +1798,13 @@ header {
 }
 
 .gallery_item img {
-  width: auto;
+  width: 100%;
   height: 400px;
   transition: transform 2s;
 }
 
 .gallery_item:hover img {
-  transform: scale(0.8)
+  transform: scale(1.2)
 }
 
 /*# 15. Responsive*/
