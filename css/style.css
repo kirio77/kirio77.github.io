@@ -1799,7 +1799,6 @@ header {
 
 .gallery_item img {
   position: relative;
-  float: left;
   width:  auto;
   height: 400px;
   background-position: 50% 50%;
