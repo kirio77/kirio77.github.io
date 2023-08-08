@@ -135,7 +135,7 @@
     });
 
     /*CountDown*/
-    $('.married_coundown').countdown({until: new Date("Aug 17, 2019 13:00:00")});
+    $('.married_coundown').countdown({since: new Date("Aug 17, 2019 13:00:00"),format: 'dHMS'});
 
     /*OWL Carousel in Our Story*/
     $(".story_wrapper").owlCarousel({
